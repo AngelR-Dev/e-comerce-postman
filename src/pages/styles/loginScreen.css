@@ -1,0 +1,63 @@
+.isLogged-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  border: solid 2px var(--light-gray);
+  border-radius: 10px;
+}
+
+.isLogged__title {
+  margin-bottom: 20px;
+}
+
+.isLogged__btn {
+  padding: 10px;
+  background-color: var(--bg-color-red);
+  color: #fff;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: filter 100ms ease;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.isLogged__btn:hover {
+  filter: brightness(1.1);
+  transition: filter 100ms ease;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: center;
+  border: solid 2px var(--light-gray);
+  border-radius: 10px;
+}
+
+.login__form {
+  width: 60%;
+  height: 30vh;
+  margin: 0 auto;
+}
+
+.login__email-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login__password-container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}

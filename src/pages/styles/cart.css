@@ -1,0 +1,29 @@
+.cart {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.cart__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart__total-container {
+  margin-left: 5vw;
+}
+
+.cart__btn {
+  background-color: var(--bg-color-red);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 12px;
+  width: 300px;
+  height: 30px;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}

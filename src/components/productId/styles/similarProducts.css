@@ -1,0 +1,19 @@
+.similar {
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  margin-bottom: 40px;
+}
+
+.similar-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 90%;
+  justify-content: center;
+}
+
+.similar__h2 {
+  text-align: center;
+  padding: 20px;
+}
