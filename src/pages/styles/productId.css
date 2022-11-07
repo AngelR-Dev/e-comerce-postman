@@ -3,3 +3,9 @@
   flex-wrap: wrap;
   grid-template-columns: repeat(2, 50%);
 }
+
+@media (max-width: 1000px) {
+  .view__container{
+    grid-template-rows: repeat(2, 400px);
+  }
+}

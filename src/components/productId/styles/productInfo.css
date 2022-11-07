@@ -79,3 +79,35 @@
   filter: brightness(1.1);
   transition: filter 100ms ease;
 }
+@media (max-width: 1000px) {
+  .product-info {
+    width: 400px; 
+  }
+  .product-info__description {
+    margin: 0;
+  }
+  .product-info__btn {
+    height: 30px;
+    padding: 0;
+    width: 250px;
+    margin: 0;
+  }
+  .product-info__footer {
+    row-gap: 4px;
+  }
+}
+@media (max-width: 910px) {
+  .product-info {
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    padding-right: 2px;
+    justify-self: end;
+    width: 250px;
+    font-size: .8rem;
+  }
+  .product-info__description {
+    font-size: .8rem;
+    line-height: 20px;
+  }
+}
