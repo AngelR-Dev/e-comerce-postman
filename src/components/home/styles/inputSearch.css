@@ -30,3 +30,13 @@
   font-family: 'Poppins', sans-serif;
   padding-left: 20px;
 }
+
+@media (max-width: 375px)
+{
+  .input__container
+  {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

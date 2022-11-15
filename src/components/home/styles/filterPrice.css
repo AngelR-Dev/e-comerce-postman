@@ -21,3 +21,40 @@
 .price__to-container {
   max-width: 178px;
 }
+
+@media (max-width: 375px)
+{
+  .price
+  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    gap: 8px;
+  }
+  .price__title
+  {
+    width: 100%;
+  }
+  .price__from-container
+  {
+    width: 48%;
+    margin: 0;
+  }
+  .price__from-container input
+  {
+    width: 100%;
+  }
+  .price__to-container
+  {
+    width: 48%;
+  }
+  .price__to-container input
+  {
+    width: 100%;
+  }
+  .filter-price__btn
+  {
+    width: 100%;
+  }
+}

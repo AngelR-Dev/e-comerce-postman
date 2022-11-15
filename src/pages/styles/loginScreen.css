@@ -45,9 +45,11 @@
 }
 
 .login__form {
-  width: 60%;
-  height: 30vh;
-  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .login__email-container {

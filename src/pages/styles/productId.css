@@ -9,3 +9,11 @@
     grid-template-rows: repeat(2, 400px);
   }
 }
+
+@media (max-width: 375px)
+{
+  .view__container
+  {
+    display: flex;
+  }
+}

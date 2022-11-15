@@ -12,3 +12,35 @@
   background-color: var(--bg-color-red);
   color: #fff;
 }
+
+@media (max-width: 375px)
+{
+  .category-container
+  {
+    display: flex;
+    width: 91%;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .category-container h3
+  {
+    width: 100%;
+  }
+  .category-container ul
+  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .category__li
+  {
+    background-color: #aaa;
+    border-radius: 8px;
+    min-width: 100px;
+    padding: 2px;
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+  }
+}

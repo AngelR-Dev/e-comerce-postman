@@ -20,3 +20,19 @@
   grid-column: 1 / 2;
   grid-row: 3 / 4;
 }
+
+@media (max-width: 375px)
+{
+  .home
+  {
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .home-box
+  {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+}

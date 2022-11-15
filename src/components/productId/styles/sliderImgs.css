@@ -79,3 +79,33 @@
     right: 165px;
   }
 }
+
+@media (max-width: 375px)
+{
+  .slider
+  {
+    width: 100%;
+    position: relative;
+  }
+  .slider__static
+  {
+    width: 280px;
+    max-width: 700px;
+    aspect-ratio: .6;
+    position: absolute;
+    left: 25vw;
+  }
+  .slider__prev,
+  .slider__next
+  {
+    top: 220px;
+  }
+  .slider__prev
+  {
+    transform: translateX(1px);
+  }
+  .slider__next
+  {
+    transform: translateX(150px);
+  }
+}
